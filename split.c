@@ -4,7 +4,7 @@
  * swap_char - swaps | and & for non-printed chars
  *
  * @input: inputstring
- * @bool: type of swap
+ * @bool: type of swap.
  * Return: swapped string
  */
 char *swap_char(char *input, int bool)
