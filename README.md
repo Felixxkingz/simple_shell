@@ -4,13 +4,13 @@
 #Simple Shell
 #
 This project is the most important of the first trimester of ALX School, is the consolidation of everything we learned in the quarter about System engineering & DevOps and Low-level programming & Algorithm. Using C programming language, we develop our own Shell.
-
-#Description
+#
+# Description
 The shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
-
-#Concepts
+#
+# Concepts
 For this project, we expect you to look at these concepts:
-
+#
 Everything you need to know to start coding your own shell
 Approaching a Project
 Resources
@@ -25,8 +25,8 @@ Ken Thompson
 Everything you need to know to start coding your own shell concept page man or help:
 
 sh (Run sh as well)
-
-#General
+#
+# General
 Who designed and implemented the original Unix operating system
 Who wrote the first version of the UNIX shell
 Who invented the B programming language (the direct predecessor to the C programming language)
@@ -93,10 +93,10 @@ write (man 2 write)
 Compilation
 Your shell will be compiled this way:
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-
-Testing
+#
+# Testing
 Your shell should work like this in interactive mode:
-
+#
 $ ./hsh
 ($) /bin/ls
 hsh main.c shell.c
@@ -116,6 +116,7 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
-#Authors
+#
+# Authors
 igwe felix chinedu 
 mokwuah ifeomaeze
