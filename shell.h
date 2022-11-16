@@ -24,7 +24,7 @@ extern char **environ;
  * struct data - struct that contains all relevant data on runtime
  * @av: argument vector
  * @input: command line written by the user
- * @args: tokens of the command line
+ * @args: tokens of the command linee
  * @status: last status of the shell
  * @counter: lines counter
  * @_environ: environment variable
