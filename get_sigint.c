@@ -2,7 +2,7 @@
 
 /**
  * get_sigint - Handle the crtl + c call in prompt
- * @sig: Signall handler
+ * @sig: Signal handler
  */
 void get_sigint(int sig)
 {
